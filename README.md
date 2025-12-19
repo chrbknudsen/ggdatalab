@@ -1,13 +1,29 @@
+<p align="center">
+  <img src="inst/hex/ggdatalab.png" width="200"/>
+</p>
+
 # ggdatalab
 
-A small ggplot2 extension: **theme_datalab()** + Datalab colour scales for discrete and continuous data.
+A lightweight **ggplot2 extension** providing a clean, opinionated theme and a
+coherent colour system for **discrete** and **continuous** data.
 
-## Install
+The package is designed to be:
+- visually consistent
+- CRAN-compliant
+- boring in the good way
+
+---
+
+## Installation
+
+### From GitHub
 
 ```r
 install.packages("remotes")
-remotes::install_github("kubdatalab/ggdatalab")
+remotes::install_github("kubdatalab/ggdatalab", build_vignettes = TRUE)
 ```
+
+---
 
 ## Quick start
 
@@ -21,9 +37,64 @@ ggplot(mtcars, aes(wt, mpg, colour = hp)) +
   theme_datalab()
 ```
 
-## Included
+---
+
+## What’s included
+
+### Theme
 
 - `theme_datalab()`
-- Discrete: `scale_fill_datalab_d()`, `scale_colour_datalab_d()`
-- Continuous: `scale_fill_datalab_c()`, `scale_colour_datalab_c()`
-- Palette helpers: `datalab_cols()`, `datalab_pal()`
+
+A minimal theme based on `theme_minimal()` with:
+- restrained grid
+- clear typography
+- sensible defaults for publications and reports
+
+### Discrete colour scales
+
+- `scale_fill_datalab_d()`
+- `scale_colour_datalab_d()`
+- `scale_color_datalab_d()` (US spelling)
+
+### Continuous colour scales
+
+- `scale_fill_datalab_c()`
+- `scale_colour_datalab_c()`
+- `scale_color_datalab_c()` (US spelling)
+
+### Palette helpers
+
+- `datalab_cols()`
+- `datalab_pal(type = c("discrete", "continuous"))`
+
+---
+
+## Vignette
+
+A full introduction with examples is available as a vignette:
+
+```r
+vignette("using-ggdatalab")
+```
+
+Or browse all vignettes:
+
+```r
+browseVignettes("ggdatalab")
+```
+
+---
+
+## Development status
+
+- ✔ R CMD check (GitHub Actions)
+- ✔ Testthat tests
+- ✔ Vignette
+- ✔ pkgdown-ready
+- ✔ CRAN-check clean (local)
+
+---
+
+## License
+
+MIT © KUB Datalab
