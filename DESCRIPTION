@@ -1,0 +1,14 @@
+Package: ggdatalab
+Title: Datalab ggplot2 Theme and Scales
+Version: 0.1.0
+Authors@R: c(
+  person("Christian", "Knudsen", role = c("aut", "cre"), email = "you@example.com")
+)
+Description: A ggplot2 extension providing a Datalab theme and colour scales.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    scales
