@@ -1,4 +1,4 @@
-url: ~
+url: https://kubdatalab.github.io/ggdatalab/
 template:
   bootstrap: 5
 destination: docs
