@@ -2,7 +2,3 @@
 ^_pkgdown\.yml$
 ^docs$
 ^README\.Rmd$
-^inst/hex/.*\.png$
-^doc$
-^Meta$
-^LICENSE\.md$
