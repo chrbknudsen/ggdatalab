@@ -4,8 +4,7 @@
 
 `ggdatalab` is a small **ggplot2 extension** that provides:
 
-- a consistent theme
-  ([`theme_datalab()`](https://kubdatalab.github.io/ggdatalab/reference/theme_datalab.md))
+- a consistent theme ([`theme_datalab()`](reference/theme_datalab.md))
 - discrete and continuous colour scales built from a fixed palette
 - simple palette helpers for reuse outside ggplot
 
@@ -51,7 +50,7 @@ ggplot(mtcars, aes(wt, mpg, colour = hp)) +
 
 ### Theme
 
-- [`theme_datalab()`](https://kubdatalab.github.io/ggdatalab/reference/theme_datalab.md)
+- [`theme_datalab()`](reference/theme_datalab.md)
 
 A minimal theme based on
 [`theme_minimal()`](https://ggplot2.tidyverse.org/reference/ggtheme.html)
@@ -59,21 +58,21 @@ with restrained grid lines and sensible typography defaults.
 
 ### Discrete colour scales
 
-- [`scale_fill_datalab_d()`](https://kubdatalab.github.io/ggdatalab/reference/scale_fill_datalab_d.md)
-- [`scale_colour_datalab_d()`](https://kubdatalab.github.io/ggdatalab/reference/scale_colour_datalab_d.md)
-- [`scale_color_datalab_d()`](https://kubdatalab.github.io/ggdatalab/reference/scale_colour_datalab_d.md)
-  (US spelling)
+- [`scale_fill_datalab_d()`](reference/scale_fill_datalab_d.md)
+- [`scale_colour_datalab_d()`](reference/scale_colour_datalab_d.md)
+- [`scale_color_datalab_d()`](reference/scale_colour_datalab_d.md) (US
+  spelling)
 
 ### Continuous colour scales
 
-- [`scale_fill_datalab_c()`](https://kubdatalab.github.io/ggdatalab/reference/scale_fill_datalab_c.md)
-- [`scale_colour_datalab_c()`](https://kubdatalab.github.io/ggdatalab/reference/scale_colour_datalab_c.md)
-- [`scale_color_datalab_c()`](https://kubdatalab.github.io/ggdatalab/reference/scale_colour_datalab_c.md)
-  (US spelling)
+- [`scale_fill_datalab_c()`](reference/scale_fill_datalab_c.md)
+- [`scale_colour_datalab_c()`](reference/scale_colour_datalab_c.md)
+- [`scale_color_datalab_c()`](reference/scale_colour_datalab_c.md) (US
+  spelling)
 
 ### Palette helpers
 
-- [`datalab_cols()`](https://kubdatalab.github.io/ggdatalab/reference/datalab_cols.md)
+- [`datalab_cols()`](reference/datalab_cols.md)
 - `datalab_pal(type = c("discrete", "continuous"))`
 
 ------------------------------------------------------------------------

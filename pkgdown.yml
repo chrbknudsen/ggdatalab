@@ -3,7 +3,4 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   using-ggdatalab: using-ggdatalab.html
-last_built: 2025-12-19T13:15Z
-urls:
-  reference: https://kubdatalab.github.io/ggdatalab/reference
-  article: https://kubdatalab.github.io/ggdatalab/articles
+last_built: 2025-12-19T13:16Z

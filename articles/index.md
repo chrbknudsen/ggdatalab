@@ -2,5 +2,4 @@
 
 ### All vignettes
 
-- [UNKNOWN
-  TITLE](https://kubdatalab.github.io/ggdatalab/articles/using-ggdatalab.md):
+- [UNKNOWN TITLE](using-ggdatalab.md):
